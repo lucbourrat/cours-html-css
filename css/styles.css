@@ -1,0 +1,50 @@
+h1 {
+	color: red;	
+	color: #000000;
+	color: rgb(125,125,125);
+	color: rgba(125,125,125);
+
+	font-size: 80px;
+}
+
+h2 {
+	color: red;
+	font-size: 60px;
+}
+
+/* ceci est un commentaire */
+
+.title2 {
+	color : blue;
+	font-size: 60px;
+}
+
+#title2 {
+	font-size: 40px;
+}
+
+/* les sélecteur en css */
+
+.class1 {
+	/* Sélectionne les éléments avec la class "class1" */
+}
+
+#id1 {
+	/* Sélectionne l'élément avec l'id "id1" */
+}
+
+p {
+	/* Sélectionne les éléments p */
+}
+
+p.class1 {
+	/* Sélectionne les éléments p ayant comme class "class1" */
+}
+
+div,p {
+	/* Sélectionne les éléments div ET les éléments p */
+}
+
+div p {
+	/* Sélectionne les éléments p à l'intérieur d'éléments div */
+}
