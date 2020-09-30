@@ -50,3 +50,76 @@ div,p {
 div p {
 	/* Sélectionne les éléments p à l'intérieur d'éléments div */
 }
+
+
+
+
+
+
+.bordures {
+	border: 2px solid blue;
+	border-radius: 16px;
+}
+
+/* CSS pour la page responsive */
+
+
+.article_fruit {
+	/*Source pour la propriété border*/
+
+
+	margin-bottom: 10px;
+	/*display: block;*/
+	/*display: inline;*/
+	/*display: inline-block;*/
+	/*display: flex;*/
+
+	/*Positionnement en html / css : https://fr.learnlayout.com/position.html */
+	/*Exercices sur flexbox : https://flexboxfroggy.com/#fr */
+
+	/*height: 300px;*/
+	/*width: 300px;*/
+
+	width: 50%;
+}
+
+#fruits {
+	display: flex;
+	/*flex-direction: row;*/
+}
+
+
+/*https://getbootstrap.com/docs/4.1/layout/overview/*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	#fruits {
+		display: flex;
+		flex-direction: column;
+	}
+	.article_fruit {
+		width: 100%;
+	}
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+	h2 {
+		color: green;
+	}
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { .
+
+}
+
+
+
+/*DECOUPAGE MAQUETTE*/
+/*GIT & GITHUB*/
